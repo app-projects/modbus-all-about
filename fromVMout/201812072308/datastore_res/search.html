@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modbus终端监控入口</title>
+
+    <style type="text/css">
+        .main{
+            width: 1900px;
+            height: 748px;
+            overflow: hidden;
+        }
+          .container{
+              background:url(./img/bg.jpg)no-repeat;
+              width:100%;
+              height:100%;
+              background-size:100% 100%;
+              position:absolute;
+              filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://47.110.78.124:8502/img/bg.jpg',sizingMethod='scale');
+          }
+
+        .search{
+            position: relative;
+            height: 30px;
+            width: 400px;
+            left: 50%;
+            margin-left: -200px;
+            top: 100px;
+
+        }
+        .search .item{
+            float: left;
+            height: 100%;
+            background-color: #ffffff;
+            border-radius: 4px;
+        }
+
+        .search .inputcls{
+            height: 23px;
+            width: 200px;
+            border-radius: 4px;
+
+        }
+        .search .btn{
+            height: 28px;
+            _height: 28px;
+            background-color: #53a1f3;
+            border-bottom: 1px solid #2868c8;
+            *border-bottom: none;
+            box-shadow: 1px 1px 1px #ccc;
+            vertical-align: middle;
+            line-height: 28px;
+            color: #ffffff;
+            margin-left: 30px;
+            width: 90px;
+            text-align: center;
+            border-radius: 3px;
+            cursor:pointer;
+        }
+
+        .search .btn:hover{
+            background-color: #5f80f3;
+        }
+
+
+
+        .state_tip {
+            color: #fffb1f !important;
+            font-weight: bold;
+        }
+        .state_err {
+            color: #FF2856 !important;
+            font-weight: bold;
+        }
+
+        .state_ok {
+            color: #39FF0A !important;
+        }
+
+        .search .tip{
+            height: 30px;
+        }
+    </style>
+
+
+</head>
+
+<body class="main">
+
+
+<div class="container">
+
+     <div class="search" >
+         <div class="tip">
+             <div id="statetip"> </div>
+         </div>
+
+         <div class="item ">
+           <input type="text" id="mac" class="inputcls" />
+         </div>
+         <div  class="item btn" id="lookbtn"> 查看监控 </div>
+     </div>
+
+</div>
+<script type="text/javascript" src="http://47.110.78.124:8502/js/jquery.js"></script>
+<script type="text/javascript">
+    
+    function look(mac) {
+        window.location.href="http://47.110.78.124:8502/rtdata.html?mac="+mac
+    }
+    var baseUrl = "http://47.110.78.124:8501"
+    var existUrl = baseUrl+"/dev/log/stat/exist/{mac}"
+    function isExistMac(mac,successFun) {
+        var targetUrl = existUrl.replace("{mac}",mac)
+        $.ajax({
+            url: targetUrl,
+            type: "GET",
+            dataType: "jsonp",  //指定服务器返回的数据类型
+            jsonpCallback: "success",
+            timeout : 3000,
+            success: function (data) {
+                if (data != null) {
+                    if (data.res == 1) { //存在改mac终端的监控记录
+                        successFun()
+                        $('#statetip').text("")
+                        successFun()
+                    }else{
+                        $('#statetip').text("注意，设备mac没有历史采集记录")
+                        $('#statetip').addClass("state_tip")
+                    }
+                }else{
+                    $('#statetip').text("错误：server返回数据有不对")
+                    $('#statetip').addClass("state_tip")
+                }
+            },
+            complete : function(XMLHttpRequest,status){ //请求完成后最终执行参数
+                if(status=='timeout'){//超时,status还有success,error等值的情况
+                    // ajaxTimeoutTest.abort();
+                    // alert("超时");
+                    $('#statetip').text("数据仓库服务器不在工作状态")
+                    $('#statetip').addClass("state_err")
+                }
+            }
+
+        })
+    }
+    $("#lookbtn").on('click',function(e){
+        var mac = $("#mac").val()
+        if (mac==""){
+            $('#statetip').text("mac 输入为空，请重新输入")
+            $('#statetip').addClass("state_err")
+            return
+        }
+        isExistMac(mac,function () {
+            look(mac)
+        })
+    })
+
+
+    $("#mac").on('input',function(e){
+        var value = $("#mac").val()
+        if (value!=""){
+            $('#statetip').text("")
+        }else{
+            $('#statetip').text("mac 输入为空，请重新输入")
+			 $('#statetip').addClass("state_err")
+        }
+    });
+
+
+</script>
+
+
+
+</body>
+</html>

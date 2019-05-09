@@ -1,0 +1,215 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Mobus终端实时温度展示</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+
+
+<script type="text/javascript">
+    var dynamicData
+    var delayTime = 1*60*1000  //1min history data
+    var lastDataTime = 0
+    var url = "http://192.168.1.102:8102/dev/log/{mac}/{lastDataTime}"
+
+    var syntimeurl = "http://192.168.1.102:8102/nowtime"
+    var svrTimeStmap =0
+
+
+
+    $(document).ready(function () {
+
+
+        var remoteTempCache = []
+
+        function insertLog(datalist){
+            var len = datalist.length
+
+            lastDataTime = datalist[len-1].timestamp
+
+            var data = null
+            while(len>0){
+                data = datalist.pop()
+                if (data!=null){
+                    remoteTempCache.push(data)
+                }
+                len--
+            }
+        }
+
+
+
+        function tickRequst() {
+            var reqUrl = url.replace("{mac}",2).replace("{lastDataTime}",lastDataTime)
+
+            // alert(reqUrl)
+            $.ajax({
+                url: reqUrl,
+                type: "GET",
+                dataType: "jsonp",  //指定服务器返回的数据类型
+                jsonpCallback:"success",
+                success: function (data) {
+                    if(data !=null){
+                        dynamicData =data
+                        if(data.svrtime){
+                            svrTimeStmap =data.svrtime
+                        }
+
+                        if(data.list!=null && data.list.constructor == Array && data.list.length>0){
+                            insertLog(data.list)
+                        }
+
+                    }
+
+
+                }
+            });
+        }
+
+
+        //异步获取远程数据
+        function pollDataFromRoute() {
+            setInterval(function () {
+                tickRequst()
+            }, 2000)
+        }
+
+
+        //创建图
+        function CreateChartUI() {
+            var chart = {
+                type: 'spline',
+                animation: Highcharts.svg, // don't animate in IE < IE 10.
+                marginRight: 10,
+                events: {
+                    load: function () {
+                        // set up the updating of the chart each second
+                        var series = this.series[0];
+                        setInterval(function () {
+
+                            var dataItem = remoteTempCache.pop()
+                            if (dataItem != null) {
+                                series.addPoint([dataItem.timestamp, Number(dataItem.templ)], true, true); //
+                            }
+
+                        }, 4000);
+                    }
+                }
+            };
+            var title = {
+                text: '终端{{.mac}}温度监控采集系统'
+            };
+            var xAxis = {
+                type: 'datetime',
+                tickPixelInterval: 150
+            };
+            var yAxis = {
+                title: {
+                    text: '温度/C'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            };
+            var tooltip = {
+                formatter: function () {
+                    return '<b>' + this.series.name + '</b><br/>' +
+                            Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) + '<br/>' +
+                            Highcharts.numberFormat(this.y, 2);
+                }
+            };
+            var plotOptions = {
+                area: {
+                    pointStart: 1940,
+                    marker: {
+                        enabled: false,
+                        symbol: 'circle',
+                        radius: 2,
+                        states: {
+                            hover: {
+                                enabled: true
+                            }
+                        }
+                    }
+                }
+            };
+            var legend = {
+                enabled: false
+            };
+            var exporting = {
+                enabled: false
+            };
+
+            var dataShowQueue = []
+
+            var series = [{
+                name: '当前温度',
+                data: (function () {
+                    // generate an array of random data
+                    var data = [], time =svrTimeStmap, i;
+                    for (i = -19; i <= 0; i += 1) {
+                        data.push({
+                            x: time + i * 1000,
+                            y: Math.random()
+                        });
+                    }
+                    return data;
+                }())
+            }];
+
+
+            var json = {};
+            json.chart = chart;
+            json.title = title;
+            json.tooltip = tooltip;
+            json.xAxis = xAxis;
+            json.yAxis = yAxis;
+            json.legend = legend;
+            json.exporting = exporting;
+            json.series = series;
+            json.plotOptions = plotOptions;
+
+
+            Highcharts.setOptions({
+                global: {
+                    useUTC: false
+                }
+            });
+
+            $('#container').highcharts(json);
+            $('.highcharts-credits').hide()
+        }
+
+
+        function synSvrtime() {
+            $.ajax({
+                url: syntimeurl,
+                type: "GET",
+                dataType: "jsonp",  //指定服务器返回的数据类型
+                jsonpCallback:"success",
+                success: function (data) {
+                    if(data !=null ){
+                        svrTimeStmap = data.svr_time
+                        CreateChartUI(svrTimeStmap)
+                    }
+
+                }
+            });
+        }
+
+
+        synSvrtime()
+        pollDataFromRoute()
+
+
+    });
+</script>
+
+
+</body>
+</html>

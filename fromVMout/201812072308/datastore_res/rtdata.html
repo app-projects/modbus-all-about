@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>modbus终端仪表盘</title>
+    <link rel="stylesheet" type="text/css" href="http://47.110.78.124:8502/css/main.css?a"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <%--<meta http-equiv="X-UA-Compatible" content="IE=7"></meta>--%>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+
+</head>
+
+<!--"mac": 2,
+"funcode": 3,
+"Ip": "61.140.21.146:13397",-->
+
+<body style="background-color:#000000">
+<div style="display: none" id="data-store-api" targetUrl="http://47.110.78.124:8501"> </div>
+
+<div id="devInfo" class="dev">
+    <div class="sec">
+        <div class="item lbl" >mac地址：</div>  <div class="item value" id="mac" >无</div>
+    </div>
+    <div class="sec">
+        <div class="item lbl" >源IP地址：</div>  <div class="item value" id="ip" >无</div>
+    </div>
+    <div class="sec">
+        <div class="item lbl" >最后采集时间：</div>  <div class="item  value" id="time" >无</div>
+    </div>
+    <div class="sec">
+        <div class="item lbl" >状态提醒栏：</div>  <div class="item  value " id="statetip" >无</div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div id="templ" class="item"></div>
+    <div id="waterMark" class="item"></div>
+    <div id="wet" class="item"></div>
+    <div id="elect" class="item"></div>
+    <div id="light" class="item"></div>
+    <div id="press" class="item"></div>
+</div>
+
+<script type="text/javascript" src="http://47.110.78.124:8502/js/echarts-all.js"></script>
+<script type="text/javascript" src="http://47.110.78.124:8502/js/jquery.js"></script>
+<script type="text/javascript" src="http://47.110.78.124:8502/js/ui.js?dddddd"></script>
+<script type="text/javascript" src="http://47.110.78.124:8502/js/datalogic.js?dffsdfddd"></script>
+</body>
+
+</html>

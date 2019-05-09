@@ -1,0 +1,48 @@
+
+.container .item{
+    float: left;
+    width: 600px;
+    height: 400px
+}
+
+
+.dev {
+    width: 800px;
+    height:125px;
+    /*background-color:black;*/
+
+    filter:Alpha(opacity=90);
+    opacity:0.9;
+
+    border-radius: 2px;
+
+}
+.dev .sec{
+      position: relative;
+      height: 30px;
+
+}
+.dev .sec .value{
+       color: #25c36c;
+}
+
+.dev .item{
+    position: relative;
+    float: left;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+
+.state_tip {
+    color: #fffb1f !important;
+    font-weight: bold;
+}
+.state_err {
+    color: #FF2856 !important;
+    font-weight: bold;
+}
+
+.state_ok {
+    color: #39FF0A !important;
+}

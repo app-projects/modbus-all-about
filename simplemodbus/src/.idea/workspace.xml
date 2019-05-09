@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e30be25-096a-49c1-938a-8d032d811b86" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="src" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="rtuclient.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modbusclients/main/rtuclient.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mb_rtu_06h_decoder_resp.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_06h_decoder_resp/mb_rtu_06h_decoder_resp.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2100">
+              <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+              <folding>
+                <element signature="e#33#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parse.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testModbus/utils/parse.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <element signature="e#15#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crc.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testModbus/utils/crc.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="response2svr.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modbusclients/main/responseData2Svr/response2svr.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mb_rtu_03h_decoder_resp.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_03h_decoder_resp/mb_rtu_03h_decoder_resp.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pack.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testModbus/pack/pack.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="148" column="31" lean-forward="true" selection-start-line="148" selection-start-column="31" selection-end-line="148" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testPostForm2Store/main/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modbusSvr.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testModbus/main/modbusSvr.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2220">
+              <caret line="127" column="27" lean-forward="false" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DepartDomain</find>
+      <find>fmt</find>
+      <find>ToolTotalCache</find>
+      <find>ToolTotalBytes</find>
+      <find>ReadLoopSvr</find>
+      <find>95</find>
+      <find>ToolBucket</find>
+      <find>Reset</find>
+      <find>ModBusProtobinPool_03</find>
+      <find>NewPackFlag</find>
+      <find>GetProtoBin</find>
+      <find>SetNewPackFlag</find>
+      <find>poller</find>
+      <find>InitClient</find>
+      <find>IsOpen</find>
+      <find>GetToolBucket</find>
+      <find>SetClientId</find>
+      <find>init</find>
+      <find>bodyBytes</find>
+      <find>web.</find>
+      <find>Elements</find>
+      <find>pollDataFromRoute</find>
+      <find>LoadLogByTimeStamp</find>
+      <find>LoadLogByRecent</find>
+      <find>remoteTempCache</find>
+      <find>push</find>
+      <find>*Devlog</find>
+      <find>LoadLogRecentByLowWaterTimeLine</find>
+      <find>GetDevModifyLog</find>
+      <find>allow</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>client.go</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\dev\goworkspace\src\gopprof</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="G:\Gohome" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/render" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/.." />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/net/source/proto/area/areas.go" />
+        <option value="$PROJECT_DIR$/net/source/main/asynserver.go" />
+        <option value="$PROJECT_DIR$/net/source/main/rtuclient.go" />
+        <option value="$PROJECT_DIR$/net/source/main/modbusSvr.go" />
+        <option value="$PROJECT_DIR$/testModbus/main/conn.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/pools/prototpool.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/protoutils.go" />
+        <option value="$PROJECT_DIR$/binaryOpt/source/sliceopt.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/endpoint_poller/modbus_rtu_poller.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/constant/modbus/modbus.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/conn/conn.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_03h_resp/mb_rtu_03h_decoder_resp.go" />
+        <option value="$PROJECT_DIR$/net/source/utils/bytes/bytearray.go" />
+        <option value="$PROJECT_DIR$/net/source/userapi/defapi.go" />
+        <option value="$PROJECT_DIR$/testModbus/connection/conn.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/errcode/errcodelist.go" />
+        <option value="$PROJECT_DIR$/modbusclients/main/responseData2Svr/response2svr.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/interfaces/edcoder.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decode_suit/mb_rtu_10h_decoder/mb_rtu_10h_decoder.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_03h_decoder_resp/mb_rtu_06h_decoder_resp.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decoder_factory.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decode_suit/mb_rtu_03h_decoder/mb_rtu_03h_decoder.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decode_suit/mb_rtu_06h_decoder/mb_rtu_06h_decoder.go" />
+        <option value="$PROJECT_DIR$/binaryOpt/source/main11.go" />
+        <option value="$PROJECT_DIR$/restful/source/main.go" />
+        <option value="$PROJECT_DIR$/testModbus/web/webApp.go" />
+        <option value="$PROJECT_DIR$/datastore/web/maplist.go" />
+        <option value="$PROJECT_DIR$/datastore/web/logs.go" />
+        <option value="$PROJECT_DIR$/datastore/web/pages/pagesTmpl.go" />
+        <option value="$PROJECT_DIR$/testModbus/utils/times.go" />
+        <option value="$PROJECT_DIR$/testModbus/utils/maplist.go" />
+        <option value="$PROJECT_DIR$/modbusclients/main/rtuclient.go" />
+        <option value="$PROJECT_DIR$/testModbus/utils/web.go" />
+        <option value="$PROJECT_DIR$/datastore/outhandler/modifyhandler/devmoditylog.go" />
+        <option value="$PROJECT_DIR$/testPostForm2Store/main/test2.go" />
+        <option value="$PROJECT_DIR$/datastore/web/store/entity/querylog.go" />
+        <option value="$PROJECT_DIR$/datastore/web/store/logs.go" />
+        <option value="$PROJECT_DIR$/datastore/web/pages/modifydata.html" />
+        <option value="$PROJECT_DIR$/net/source/proto/binfiles/protobin.go" />
+        <option value="$PROJECT_DIR$/testPostForm2Store/main/testapi.go" />
+        <option value="$PROJECT_DIR$/datastore/web/store/entity/modifylog.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_06h_decoder_resp/mb_rtu_06h_decoder_resp.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/outputconfig/configs.go" />
+        <option value="$PROJECT_DIR$/datastore/web/pages/rtdata.html" />
+        <option value="$PROJECT_DIR$/testModbus/utils/crc.go" />
+        <option value="$PROJECT_DIR$/testModbus/utils/parse.go" />
+        <option value="$PROJECT_DIR$/testModbus/pack/pack.go" />
+        <option value="$PROJECT_DIR$/testModbus/main/modbusSvr.go" />
+        <option value="$PROJECT_DIR$/testPostForm2Store/main/main.go" />
+        <option value="$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_03h_decoder_resp/mb_rtu_03h_decoder_resp.go" />
+        <option value="$PROJECT_DIR$/datastore/web/webApp.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="459" />
+    <option name="y" value="62" />
+    <option name="width" value="936" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fromVMout/20181129/gov0.0.2/src" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/net/source/proto/outputconfig/configs.go&#10;pack&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/testModbus/pack/pack.go&#10;crc&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/testModbus/utils/crc.go&#10;protob&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/net/source/proto/binfiles/protobin.go&#10;webapp&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/datastore/web/webApp.go&#10;conf&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/net/source/proto/outputconfig/configs.go&#10;con&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/net/source/proto/outputconfig/configs.go&#10;rtu&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/modbusclients/main/rtuclient.go&#10;rtucl&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/modbusclients/main/rtuclient.go&#10;Cli&#9;null&#9;null&#10;cli&#9;null&#9;null&#10;03&#9;FILE&#9;file://F:/gopaths/simplemodbus/src/net/source/proto/trans/decode_suit/mb_rtu_03h_decoder/mb_rtu_03h_decoder.go&#10;decoder_factory&#9;FILE&#9;file://X:/code/go/src/net/source/proto/trans/decoder_factory.go&#10;CLi&#9;null&#9;null&#10;pool&#9;FILE&#9;file://X:/code/go/src/net/source/proto/pools/prototpool.go&#10;cl&#9;null&#9;null&#10;Cl&#9;null&#9;null&#10;iocon&#9;FILE&#9;file://F:/ecosystem/protoswitcher/code/gov0.2_parse_mulitport_multi-user/src/net/source/proto/ios/ioconn.go&#10;safe&#9;FILE&#9;file://F:/ecosystem/protoswitcher/code/gov0.1/src/net/source/utils/bytes/safebuf.go&#10;io&#9;FILE&#9;file://F:/ecosystem/protoswitcher/code/gov0.1/src/net/source/proto/ios/ioconn.go&#10;conn&#9;FILE&#9;file://X:/code/gov0.1/src/net/source/proto/conn/conn.go&#10;ioc&#9;FILE&#9;file://X:/code/gov0.1/src/net/source/proto/ios/ioconn.go&#10;asy&#9;FILE&#9;file://X:/code/gov0.1/src/net/source/cs2/asynserver.go&#10;CtlMsg&#9;null&#9;null&#10;ProtoProcessor&#9;null&#9;null&#10;as&#9;FILE&#9;file://X:/code/go/src/net/source/cs2/asynserver.go&#10;res&#9;FILE&#9;file://E:/dev/goworkspace/src/restful/source/restmain2.go&#10;rest&#9;FILE&#9;file://E:/dev/goworkspace/src/restful/source/rest3.go&#10;ringou&#9;FILE&#9;file://E:/dev/goworkspace/src/performance/source/ringout_test.go&#10;lock&#9;null&#9;null&#10;本文来自 喜爱打酱油 的CSDN 博客&#9;null&#9;null&#10;main&#9;FILE&#9;file://E:/Go/src/cmd/addr2line/main.go" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\gopaths\simplemodbus\src\datastore\web\pages" />
+      <recent name="F:\gopaths\simplemodbus\src\testModbus\utils" />
+      <recent name="F:\gopaths\simplemodbus\src\datastore\web\store" />
+      <recent name="F:\gopaths\simplemodbus\src\datastore" />
+      <recent name="F:\gopaths\simplemodbus\src\net\source\proto\trans\decode_suit_svr\mb_rtu_06h_decoder_resp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gopaths\simplemodbus\src\datastore\web\pages" />
+      <recent name="F:\gopaths\simplemodbus\src\net\source\proto\trans\decode_suit\mb_rtu_03h_decoder" />
+      <recent name="X:\code\go\src\testModbus\main" />
+      <recent name="X:\code\go\src\net\source\proto\trans\decode_suit\mb_rtu_06h_decoder" />
+      <recent name="X:\code\go\src\net\source\proto\trans\decode_suit\mb_rtu_03h_decoder" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build rtuclient.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/testPostForm2Store/main/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build modbusSvr.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="192.168.1.102 9002 1" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/testModbus/main/modbusSvr.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build response2svr.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/modbusclients/main/responseData2Svr/response2svr.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build rtuclient.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="47.110.78.124 8510" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/modbusclients/main/rtuclient.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build webApp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="src" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="192.168.1.108 12345" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/datastore/web/webApp.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build rtuclient.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build webApp.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build modbusSvr.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build response2svr.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build rtuclient.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build webApp.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build modbusSvr.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build response2svr.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BenchmarkCopySlice_in_slicecopy_test_go - 2018.10.18 at 21h 33m 26s.xml">
+      <configuration name="BenchmarkCopySlice in slicecopy_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkCopySlice_in_slicecopy_test_go - 2018.10.18 at 21h 34m 06s.xml">
+      <configuration name="BenchmarkCopySlice in slicecopy_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkStringJoin1_in_bytearray_test_go - 2018.11.17 at 09h 48m 56s.xml">
+      <configuration name="BenchmarkStringJoin1 in bytearray_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkStringJoin1_in_bytearray_test_go_(1) - 2018.11.17 at 10h 07m 53s.xml">
+      <configuration name="BenchmarkStringJoin1 in bytearray_test.go (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkStringJoin1_in_bytearray_test_go_(1) - 2018.11.17 at 10h 08m 09s.xml">
+      <configuration name="BenchmarkStringJoin1 in bytearray_test.go (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAdd_in_ringout_test_go - 2018.10.16 at 00h 23m 39s.xml">
+      <configuration name="TestAdd in ringout_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="consoleinput_test_go - 2018.10.18 at 15h 12m 18s.xml">
+      <configuration name="consoleinput_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="gobench_bytearray_test_go - 2018.11.17 at 09h 57m 40s.xml">
+      <configuration name="gobench bytearray_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="gobench_main_test_go - 2018.10.15 at 20h 46m 22s.xml">
+      <configuration name="gobench main_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="gobench_slicecopy_test_go - 2018.10.18 at 21h 44m 01s.xml">
+      <configuration name="gobench slicecopy_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15938166" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44408253" sideWeight="0.14818764" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6427796" sideWeight="0.7793177" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2196162" sideWeight="0.5038002" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44408253" sideWeight="0.85181236" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21041666" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39135382" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/modbus" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/net/source/main/asynserver.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/testModbus/connection/conn.go</url>
+          <line>77</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/testPostForm2Store/main/testapi.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="477" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>key</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/restful/source/restmain2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restful/source/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/runtime/signal_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/log/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="304" column="10" lean-forward="false" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/container/list/list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/encoding/json/stream.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3348">
+          <caret line="179" column="36" lean-forward="false" selection-start-line="179" selection-start-column="26" selection-end-line="179" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="619" column="5" lean-forward="false" selection-start-line="619" selection-start-column="5" selection-end-line="619" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mux/route.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="296" column="23" lean-forward="false" selection-start-line="296" selection-start-column="23" selection-end-line="296" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/math/rand/rand.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="276" column="5" lean-forward="false" selection-start-line="276" selection-start-column="5" selection-end-line="276" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="744" column="38" lean-forward="true" selection-start-line="744" selection-start-column="38" selection-end-line="744" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/net/url/url.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="769" column="5" lean-forward="false" selection-start-line="769" selection-start-column="5" selection-end-line="769" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/net/http/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1981">
+          <caret line="312" column="65" lean-forward="true" selection-start-line="312" selection-start-column="65" selection-end-line="312" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/utils/times.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/sync/atomic/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/strconv/atoi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="508" column="0" lean-forward="false" selection-start-line="508" selection-start-column="0" selection-end-line="508" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mux/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="491" column="0" lean-forward="false" selection-start-line="491" selection-start-column="0" selection-end-line="491" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastore/web/pages/pagesTmpl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testPostForm2Store/main/test2.go" />
+    <entry file="file://$PROJECT_DIR$/datastore/outhandler/modifyhandler/devmoditylog.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastore/web/store/entity/querylog.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/sync/map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/utils/maplist.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastore/web/pages/modifydata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastore/web/store/logs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="134" column="34" lean-forward="true" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mux/mux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="87" column="5" lean-forward="false" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="1916" column="46" lean-forward="false" selection-start-line="1916" selection-start-column="46" selection-end-line="1916" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/strconv/itoa.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Gohome/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="193" column="5" lean-forward="false" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testPostForm2Store/main/testapi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastore/web/store/entity/modifylog.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/connection/conn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastore/web/pages/rtdata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2708">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/source/proto/trans/decode_suit/mb_rtu_06h_decoder/mb_rtu_06h_decoder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/render/render.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1155">
+          <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/utils/web.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/source/proto/binfiles/protobin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="137" column="9" lean-forward="true" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/source/proto/trans/decode_suit/mb_rtu_03h_decoder/mb_rtu_03h_decoder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modbusclients/main/responseData2Svr/response2svr.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testPostForm2Store/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/main/modbusSvr.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="127" column="27" lean-forward="false" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_03h_decoder_resp/mb_rtu_03h_decoder_resp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/source/proto/trans/decode_suit_svr/mb_rtu_06h_decoder_resp/mb_rtu_06h_decoder_resp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+          <folding>
+            <element signature="e#33#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/utils/parse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/utils/crc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastore/web/webApp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/net/source/proto/outputconfig/configs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testModbus/pack/pack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="148" column="31" lean-forward="true" selection-start-line="148" selection-start-column="31" selection-end-line="148" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modbusclients/main/rtuclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

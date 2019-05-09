@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Mobus终端实时温度展示</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+    var dynamicData
+    var delayTime = 1 * 60 * 1000  //1min history data
+    var lastDataTime = 0
+    var url = "http://192.168.1.108:12345/dev/log/{mac}/{lastDataTime}"
+
+
+    /**
+     *  "reg_setter_h_8": 16,
+     "reg_setter_l_8": 17,
+     "data_h_8": 18,
+     "data_l_8": 23,
+     "client_id": 1,
+     "mac": "2",
+     "fn_code": 6,
+     "timestamp": 1543322280438,
+     "ip": "192.168.1.104"
+     *
+     * **/
+
+
+
+    $(document).ready(function () {
+        var remoteTempCache = []
+
+        function insertLog(datalist) {
+            var len = datalist.length
+            lastDataTime = datalist[len - 1].timestamp
+
+            var data = null
+            while (len > 0) {
+                data = datalist.pop()
+                if (data != null) {
+                    remoteTempCache.push(data)
+                }
+                len--
+            }
+        }
+
+
+        function tickRequst() {
+            var reqUrl = url.replace("{mac}", 2).replace("{lastDataTime}", lastDataTime)
+
+            // alert(reqUrl)
+            $.ajax({
+                url: reqUrl,
+                type: "GET",
+                dataType: "jsonp",  //指定服务器返回的数据类型
+                jsonpCallback: "success",
+                success: function (data) {
+                    dynamicData = data
+                    if (data != null && data.list != null && data.list.constructor == Array && data.list.length > 0) {
+                        insertLog(data.list)
+                    }
+
+                }
+            });
+        }
+
+
+        //异步获取远程数据
+        function pollDataFromRoute() {
+            setInterval(function () {
+                tickRequst()
+            }, 2000)
+        }
+
+
+        pollDataFromRoute()
+
+
+    });
+</script>
+
+
+</body>
+</html>
